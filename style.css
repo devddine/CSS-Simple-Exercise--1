@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* Police: Inter, Arial ou sans-serif */
+    font-family: 'Inter', Arial, sans-serif;
+}
+section{
+    /* 
+        - arrière plan: 
+             - image: gaza-bombing.jpeg
+             - toujour faire apparaitre la partie droite en bas.
+             - l'image arrière plan doit couvrire toute la largeur de la section.
+        - hauteur : hauteur de l'écran.
+    */
+    background: url("/images/gaza-bombing.jpeg") right bottom;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    padding: 200px 10px;
+    /* 
+        - largeur: 50% du parent.
+        - hauteur: 100% du parent
+        - arrière plan:
+           - couleur: blanc
+           - image: blood.png avec répition horisontale.
+    */
+    width: 50%;
+    height: 100%;
+    background: white url("/images/blood.png") repeat-x;
+}
+h1{
+    /* 
+        aligner le texte : center
+    */
+    text-align: center;
+}
+.stat{
+    /* 
+        Taille texte: 4 fois la taille naturelle.
+        epaisseur de texte : trés fin.
+        couleur texte: #8D1B12
+    */
+    font-size: 4em;
+    font-weight: 100;
+    color: #8D1B12;
+}
+.label{
+    /* 
+        - couleur texte: #009736
+        - texte : toujours en majuscule.
+        - taille texte: 0.6 fois la taille naturelle.
+    */
+    color: #009736;
+    text-transform: uppercase;
+    font-size: 0.6em;
+}
+
+p{
+    margin-top: 20px;
+    /* 
+        - aligner le texte : centre
+    */
+    text-align: center;
+}
